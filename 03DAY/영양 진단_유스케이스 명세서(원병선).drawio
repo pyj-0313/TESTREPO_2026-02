@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram id="L5z7sSAYw-Q59H8dN6Di" name="페이지-3">
+    <mxGraphModel dx="586" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-2" parent="1" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 영양 진단을 통한 식단 추천" vertex="1">
+          <mxGeometry height="690" width="510" x="100" y="110" as="geometry">
+            <mxRectangle height="40" width="250" x="100" y="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-3" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" value="" vertex="1">
+          <mxGeometry height="30" width="510" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-4" parent="BN9l-BIDHyXP8PyFPyCN-3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="목표" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry">
+            <mxRectangle height="30" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-5" parent="BN9l-BIDHyXP8PyFPyCN-3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-wrap-mode: nowrap;&quot;&gt;영양 진단을 통해 회원의 식습관을 분석하고 적합한 식단과 제품을 추천한다.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="450" x="60" as="geometry">
+            <mxRectangle height="30" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-6" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="510" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-7" parent="BN9l-BIDHyXP8PyFPyCN-6" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="엑터" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry">
+            <mxRectangle height="30" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-8" parent="BN9l-BIDHyXP8PyFPyCN-6" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="회원 가입자" vertex="1">
+          <mxGeometry height="30" width="450" x="60" as="geometry">
+            <mxRectangle height="30" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-9" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="510" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-10" parent="BN9l-BIDHyXP8PyFPyCN-9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="사전 조건" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry">
+            <mxRectangle height="30" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-11" parent="BN9l-BIDHyXP8PyFPyCN-9" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="메인 홈페이지를 통해 회원가입을 진행한 상태에서 설문 조사를 시작한다." vertex="1">
+          <mxGeometry height="30" width="450" x="60" as="geometry">
+            <mxRectangle height="30" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-12" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="510" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-13" parent="BN9l-BIDHyXP8PyFPyCN-12" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="사후 처리" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry">
+            <mxRectangle height="30" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-14" parent="BN9l-BIDHyXP8PyFPyCN-12" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="영양 진단 이후 결과를 분석하여 적합한 식단과 제품을 추천하는 페이지로 이동한다." vertex="1">
+          <mxGeometry height="30" width="450" x="60" as="geometry">
+            <mxRectangle height="30" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-15" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="170" width="510" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-16" parent="BN9l-BIDHyXP8PyFPyCN-15" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="기본흐름" vertex="1">
+          <mxGeometry height="170" width="60" as="geometry">
+            <mxRectangle height="170" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-17" parent="BN9l-BIDHyXP8PyFPyCN-15" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;div&gt;1 회원은 로그인 후 설문을 위해 영양 진단 버튼을 클릭한다&lt;br&gt;2 진단 페이지 진입 전 기존 설문 작성 여부를 확인한다&amp;nbsp;&lt;/div&gt;&lt;div&gt;3 시스템은 사용자가 버튼을 누르면 설문 작성 페이지로 이동하여 참여한다&lt;/div&gt;&lt;div&gt;4 시스템은 영양 진단 결과를 도출하여 사용자에게 정보를 제공한다&lt;/div&gt;&lt;div&gt;5 시스템은 결과 마지막에 식단을 추천하고 추천 제품을 안내한다&lt;/div&gt;&lt;div&gt;6 회원은 추천제품 페이지 이동 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;7 시스템은 추천 제품 페이지로 이동한다&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="450" x="60" as="geometry">
+            <mxRectangle height="170" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-18" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="130" width="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-19" parent="BN9l-BIDHyXP8PyFPyCN-18" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="대안흐름" vertex="1">
+          <mxGeometry height="130" width="60" as="geometry">
+            <mxRectangle height="130" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-20" parent="BN9l-BIDHyXP8PyFPyCN-18" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;기존 설문 작성 여부에 따라 영양 진단, 추천 페이지로 이동&lt;/span&gt;&lt;/div&gt;&lt;div&gt;질문 재작성에 동의하지 않을 경우 추천 페이지 이동 안내 메세지 출력&lt;/div&gt;&lt;div&gt;추천 페이지 이동 거절 시 메인 페이지로 이동 안내&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="450" x="60" as="geometry">
+            <mxRectangle height="130" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-21" parent="BN9l-BIDHyXP8PyFPyCN-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="230" width="510" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-22" parent="BN9l-BIDHyXP8PyFPyCN-21" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="예외흐름" vertex="1">
+          <mxGeometry height="230" width="60" as="geometry">
+            <mxRectangle height="230" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN9l-BIDHyXP8PyFPyCN-23" parent="BN9l-BIDHyXP8PyFPyCN-21" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;2a 회원이 기존에 설문을 작성한 기록이 남아 있는 경우&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 시스템은 &#39;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;기존 설문 참여내역이 있습니다.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;다시 참여하시겠습니까?&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap;&quot;&gt;&#39; 라는&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 메시지를 비회원에게 전달&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;3a 회원이 모든 설문에 참여하지 않았을경우&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;시스템 메세지를 통해 &#39;선택하지 않은 문항이 있습니다.&#39;을 전달&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5a&amp;nbsp; 회원이 추천 페이지 이동을 거절하는 경우&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-style: initial;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 시스템은 &#39;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추천 페이지로 이동하시겠습니까?&#39;라는 메세지를 전달하고 거절할경우&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 메인페이지로 안내&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="450" x="60" as="geometry">
+            <mxRectangle height="230" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

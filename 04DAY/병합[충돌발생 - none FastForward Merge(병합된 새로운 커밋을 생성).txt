@@ -1,0 +1,74 @@
+----------------------------------
+01
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>
+C:\Users\Administrator\Downloads\GIT_TEST>git switch master
+Switched to branch 'master'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git commit -m "V1.0 master"
+[master dae5465] V1.0 master
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+dae5465 (HEAD -> master) V1.0 master
+03758a9 (dev) V0.1.1 dev
+7b617cc V0.1 dev
+64fdbf7 V0.0 master
+----------------------------------
+02
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch dev
+Switched to branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git commit -m "V0.1 dev"
+[dev a0c8724] V0.1 dev
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+
+C:\Users\Administrator\Downloads\GIT_TEST>git branch
+* dev
+  master
+
+----------------------------------
+03 병합시도(충돌 발생 가능)
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch master
+Switched to branch 'master'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git merge dev
+Auto-merging master_01.txt
+CONFLICT (content): Merge conflict in master_01.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+----------------------------------
+04 충돌해결 후 병합시도(master) - NoneFastForward Merge
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git merge --continue
+[master 5cc3caf] Merge branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+5cc3caf (HEAD -> master) Merge branch 'dev'
+a0c8724 (dev) V0.1 dev
+dae5465 V1.0 master
+03758a9 V0.1.1 dev
+7b617cc V0.1 dev
+64fdbf7 V0.0 master
+
+----------------------------------
+05 충돌해결 후 병합시도(dev) - FastForward Merge
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch dev
+Switched to branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git merge master
+Updating a0c8724..5cc3caf
+Fast-forward
+ master_01.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+

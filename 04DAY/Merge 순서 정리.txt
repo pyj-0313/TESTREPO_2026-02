@@ -1,0 +1,21 @@
+Merge 순서 정리
+----------------------------------
+branch 생성
+- git branch (브랜치명)
+
+branch 이동
+- git switch (브랜치명)
+- git checkout (브랜치명)
+
+branch 확인
+- git branch
+
+branch 병합
+- 병합되는 branch로 이동(git branch master)
+- 병합시도 (git merge dav - FastForward)
+
+branch 병합-충돌시
+- 1. 병합되는 branch로 이동 (git branch master)
+- 2. 병합시도(git merge dev) -> 충돌발생!
+- 3. fixed -> git add * -> git merge --continue (none Fast Forword merge -커밋시점 새로 만든다)
+- 4. git switch dev -> git merge master

@@ -1,0 +1,111 @@
+----------------------------------
+01  
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git init
+Initialized empty Git repository in C:/Users/Administrator/Downloads/GIT_TEST/.git/
+
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git commit -m "V0.0 master"
+[master (root-commit) 64fdbf7] V0.0 master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 master_01.txt
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+64fdbf7 (HEAD -> master) V0.0 master
+
+----------------------------------
+02 
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git branch
+* master
+
+C:\Users\Administrator\Downloads\GIT_TEST>git branch dev
+
+C:\Users\Administrator\Downloads\GIT_TEST>git branch
+  dev
+* master
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+64fdbf7 (HEAD -> master, dev) V0.0 master
+
+----------------------------------
+03
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch dev
+Switched to branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git branch
+* dev
+  master
+
+----------------------------------
+04
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+64fdbf7 (HEAD -> dev, master) V0.0 master
+
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git commit -m "V0.1 dev"
+[dev 7b617cc] V0.1 dev
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev_01.txt
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+7b617cc (HEAD -> dev) V0.1 dev
+64fdbf7 (master) V0.0 master
+
+----------------------------------
+05 
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git checkout master
+Switched to branch 'master'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+64fdbf7 (HEAD -> master) V0.0 master
+
+----------------------------------
+06
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch dev
+Switched to branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git add *
+
+C:\Users\Administrator\Downloads\GIT_TEST>git commit -m "V0.1.1 dev"
+[dev 03758a9] V0.1.1 dev
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dev_02.txt
+
+----------------------------------
+07
+----------------------------------
+C:\Users\Administrator\Downloads\GIT_TEST>git switch master
+Switched to branch 'master'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+64fdbf7 (HEAD -> master) V0.0 master
+
+C:\Users\Administrator\Downloads\GIT_TEST>git merge dev
+Updating 64fdbf7..03758a9
+Fast-forward
+ dev_01.txt | 1 +
+ dev_02.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 dev_01.txt
+ create mode 100644 dev_02.txt
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+03758a9 (HEAD -> master, dev) V0.1.1 dev
+7b617cc V0.1 dev
+64fdbf7 V0.0 master
+
+C:\Users\Administrator\Downloads\GIT_TEST>git switch dev
+Switched to branch 'dev'
+
+C:\Users\Administrator\Downloads\GIT_TEST>git log --oneline
+03758a9 (HEAD -> dev, master) V0.1.1 dev
+7b617cc V0.1 dev
+64fdbf7 V0.0 master
+
